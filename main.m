@@ -1,7 +1,9 @@
-
+%calcula el parametro de order m, o magnetizacion
+clc
+clear variables
 p = 5;  %then 40
 N = 200;
-beta = 2;
+beta = 2; % beta >1 por debajo de la transion
 maxIterations = 100000;
 pickM = 100;
 runs = 20;
